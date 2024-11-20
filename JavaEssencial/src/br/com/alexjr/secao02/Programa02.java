@@ -1,5 +1,5 @@
 //O Compilador e o bytecode
-package br.com.alexjr.secao03;
+package br.com.alexjr.secao02;
 
 public class Programa02 {
 

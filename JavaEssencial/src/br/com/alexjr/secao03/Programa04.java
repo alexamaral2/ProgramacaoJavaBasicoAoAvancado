@@ -1,5 +1,5 @@
 //if, else, if else
-package br.com.alexjr.secao04;
+package br.com.alexjr.secao03;
 
 public class Programa04 {
 

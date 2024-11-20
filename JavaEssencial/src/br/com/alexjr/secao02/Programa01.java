@@ -1,4 +1,4 @@
-package br.com.alexjr.secao03;
+package br.com.alexjr.secao02;
 
 public class Programa01 {
 

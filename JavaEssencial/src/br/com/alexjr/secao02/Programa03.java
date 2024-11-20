@@ -1,7 +1,7 @@
 //A função main()
 
 //Linguagem orientada a objetos
-package br.com.alexjr.secao03;
+package br.com.alexjr.secao02;
 
 public class Programa03 {
 	//Essa função que torna a classe java em um programa Java

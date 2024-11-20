@@ -2,7 +2,7 @@
 
 //Se você precisar criar a função main() //programa java
 // main e no teclado pressionar CTRL + barra de espaço
-package br.com.alexjr.secao04;
+package br.com.alexjr.secao03;
 
 public class Programa05 {
 
