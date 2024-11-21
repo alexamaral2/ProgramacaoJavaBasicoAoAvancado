@@ -1,4 +1,4 @@
-package br.com.alexjr.secao05;
+package br.com.alexjr.secao06;
 
 //Matrizes parte 2
 public class Programa19 {
