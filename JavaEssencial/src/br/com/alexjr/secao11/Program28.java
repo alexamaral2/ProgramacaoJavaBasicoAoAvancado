@@ -4,10 +4,10 @@ public class Program28 {
 
 	public static void main(String[] args) {
 		
-		Pessoa p1 = new Pessoa("Pedro da Silva", 1987, "pedro@gmail.com");
-		System.out.println(p1.toString());
-		System.out.println(p1.getNome());
-		System.out.println("\n");
+		//Pessoa p1 = new Pessoa("Pedro da Silva", 1987, "pedro@gmail.com");
+		//System.out.println(p1.toString());
+		//System.out.println(p1.getNome());
+		//System.out.println("\n");
 		
 		Aluno a1 = new Aluno("Vanessa da Silva", 2001, "123456", "vanessa@gmail.com");
 		System.out.println(a1.toString());
