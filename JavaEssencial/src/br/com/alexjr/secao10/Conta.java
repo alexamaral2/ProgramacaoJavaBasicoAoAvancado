@@ -6,6 +6,9 @@ public class Conta {
 	private float limite;
 	private Cliente cliente;
 
+	public Conta() {
+	}
+
 	public Conta(int numero, float saldo, float limite, Cliente cliente) {
 		this.numero = numero;
 		this.saldo = saldo;
@@ -48,5 +51,20 @@ public class Conta {
 
 	public void setCliente(Cliente cliente) {
 		this.cliente = cliente;
+	}
+
+	@Override
+	public String toString() {
+		return "O saldo da conta é " + this.getSaldo();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (!(obj instanceof Conta)) {
+			return false;
+		} else {
+			Conta verificar = (Conta) obj; // Cast
+			return verificar.getSaldo() == this.getSaldo();
+		}
 	}
 }
