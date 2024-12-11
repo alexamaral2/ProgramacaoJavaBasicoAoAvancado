@@ -33,8 +33,15 @@ public class Conta {
 		}
 	}
 
-	public void depositar(float valor) {
-		this.saldo += valor;
+	// Forma 1
+	//public void depositar(float valor) {
+	//	synchronized (this) {
+	//		this.saldo += valor;
+	//	}
+	//}
+	
+	public synchronized void depositar(float valor) {
+		this.saldo = this.saldo + valor;
 	}
 
 	public float getSaldo() {
