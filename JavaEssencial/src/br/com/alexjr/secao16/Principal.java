@@ -15,7 +15,7 @@ import br.com.alexjr.secao10.Conta;
  */
 public class Principal {
 
-	public static Cliente cliente = new Cliente("Angelina Jolie", "Rua da paz, 45");
+	public static Cliente cliente = new Cliente(24, "Angelina Jolie", "Rua da paz, 45");
 	public static Conta conta = new Conta(1, 200, 300, cliente);
 	public static Scanner teclado = new Scanner(System.in);
 

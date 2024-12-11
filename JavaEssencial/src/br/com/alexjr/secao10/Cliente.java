@@ -1,13 +1,23 @@
 package br.com.alexjr.secao10;
 
-public class Cliente {
+public class Cliente implements Comparable<Object> {
 	
-	String nome;
-	String endereco;
+	private Integer idade;
+	private String nome;
+	private String endereco;
 	
-	public Cliente(String nome, String endereco) {
+	public Cliente(Integer idade, String nome, String endereco) {
+		this.idade = idade;
 		this.nome = nome;
 		this.endereco = endereco;
+	}
+	
+	public Integer getIdade() {
+		return idade;
+	}
+
+	public void setIdade(Integer idade) {
+		this.idade = idade;
 	}
 
 	public String getNome() {
@@ -25,5 +35,17 @@ public class Cliente {
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
+
+	@Override
+	public String toString() {
+		return this.nome;
+	}
+
+	@Override
+	public int compareTo(Object outro) {
+		 Cliente outroCliente = (Cliente) outro;
+		 return this.idade.compareTo(outroCliente.idade);
+	}
+	
 	
 }

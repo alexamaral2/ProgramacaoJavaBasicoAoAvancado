@@ -11,8 +11,8 @@ import br.com.alexjr.secao10.Conta;
 public class Programa39 {
 
 	public static void main(String[] args) {
-		Cliente cli1 = new Cliente("Angelina Jolie", "Rua 1, 234");
-		Cliente cli2 = new Cliente("Felicity Jones", "Rua 2, 345");
+		Cliente cli1 = new Cliente(24, "Angelina Jolie", "Rua 1, 234");
+		Cliente cli2 = new Cliente(32, "Felicity Jones", "Rua 2, 345");
 
 		Conta c1 = new Conta(1, 200, 300, cli1);
 		Conta c2 = new Conta(2, 200, 300, cli2);
